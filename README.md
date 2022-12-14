@@ -10,24 +10,28 @@
 
 ## Problems 
 
-1. Write a function that takes an array of numbers and returns a new array containing only the even numbers in the original array.
-```js
-onlyEven([3, 15, 2, 18, 21, 26]); //returns [2, 18, 26]
-```
+1. Write a function named `uppercase` that takes an array of strings change every first letter in the string to uppercase.
+    
+    ```jsx
+    uppercase(animals) // ['Cheetah','Dog', 'Cat', 'Dodobird', 'Bear', 'Dolphin']
+    ```
 
-2. Write a function that takes an array of numbers and returns a new array with the original array elements doubled.
-```js
-doubled([2, 40, 14, 3, 25]); //returns [4, 80, 28, 6, 50]
-```
+2. Write a function named `longToShort` that takes an array of strings, and sorts the array by string length in order of greatest to least 
+    
+    ```jsx
+    longToShort(animals) //['cheetah','dog', 'cat', 'dodobird', 'bear', 'dolphin']
+    ```
 
-3. Write a function that takes a string argument and returns a new string with vowels deleted.
-```js
-removeVowelsString("code challenge"); //returns "cd chllng"
-```
+3. Write a function named `shortWords` that takes an array of strings return the strings with less than 5 letters
+    
+    ```jsx
+    shortWords(animals) // ['dog', 'cat', 'bear']
+    ```
 
-4. Write a function that takes a string and returns that string in snake case (all lowercase characteres with underscores between words):
-```js
-snakeCase("This is a Sentence"); // returns "this_is_a_sentence"
-```
+4. Write a function named `onlyVowelA` that takes an array of strings and only returns the strings that contain the vowel a. 
+    
+    ```jsx
+    onlyVowelA(animals) // ['cheetah', 'cat','bear']
+    ```
 
 
