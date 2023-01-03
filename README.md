@@ -10,16 +10,22 @@
 
 ## Problems 
 
+Assume the following examples use the array:
+
+```javascript
+const animals = ['cheetah', 'dog', 'cat', 'dodobird', 'bear', 'dolphin'];
+```
+
 1. Write a function named `uppercase` that takes an array of strings change every first letter in the string to uppercase.
     
     ```jsx
-    uppercase(animals) // ['Cheetah','Dog', 'Cat', 'Dodobird', 'Bear', 'Dolphin']
+    uppercase(animals) // ['Cheetah', 'Dog', 'Cat', 'Dodobird', 'Bear', 'Dolphin']
     ```
 
 2. Write a function named `longToShort` that takes an array of strings, and sorts the array by string length in order of greatest to least 
     
     ```jsx
-    longToShort(animals) //['cheetah','dog', 'cat', 'dodobird', 'bear', 'dolphin']
+    longToShort(animals) // ['dodobird', 'cheetah', 'dolphin', 'bear', 'dog', 'cat']
     ```
 
 3. Write a function named `shortWords` that takes an array of strings return the strings with less than 5 letters
