@@ -16,7 +16,7 @@ Assume the following examples use the array:
 const animals = ['cheetah', 'dog', 'cat', 'dodobird', 'bear', 'dolphin'];
 ```
 
-1. Write a function named `uppercase` that takes an array of strings change every first letter in the string to uppercase.
+1. Write a function named `uppercase` that takes an array of strings and changes every first letter in every string to uppercase.
     
     ```jsx
     uppercase(animals) // ['Cheetah', 'Dog', 'Cat', 'Dodobird', 'Bear', 'Dolphin']
